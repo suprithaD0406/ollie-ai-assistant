@@ -1,0 +1,64 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Databases
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Generated Vector Databases
+# ==============================
+chroma/
+chroma_db/
+vector_db/
+qdrant_storage/
+
+# ==============================
+# Runtime / Uploaded Files
+# ==============================
+uploads/*
+!uploads/.gitkeep
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
